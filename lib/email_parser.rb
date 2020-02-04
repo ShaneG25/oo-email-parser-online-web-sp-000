@@ -16,5 +16,6 @@ class EmailAddressParser
         results << i 
       end 
     end 
+    results 
   end 
 end 
