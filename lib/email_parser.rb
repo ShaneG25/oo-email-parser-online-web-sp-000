@@ -11,6 +11,7 @@ class EmailAddressParser
   def parse 
     results = [] 
     check = @emails.split(/[, ]{1,}/)
-    check = 
+    check.each do |i|
+      
   end 
 end 
