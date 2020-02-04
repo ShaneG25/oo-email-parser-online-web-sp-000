@@ -8,5 +8,7 @@ class EmailAddressParser
     @emails = string 
   end 
   
-  
+  def parse 
+    
+  end 
 end 
