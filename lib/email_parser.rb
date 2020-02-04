@@ -10,6 +10,7 @@ class EmailAddressParser
   
   def parse 
     results = [] 
-    check = @emails.split(/[, ])
+    check = @emails.split(/[, ]{1,}/)
+    check = 
   end 
 end 
