@@ -13,6 +13,7 @@ class EmailAddressParser
     check = @emails.split(/[, ]{1,}/)
     check.each do |i|
       if !(results.include?(i))
-        
+        results << i 
+      end 
   end 
 end 
