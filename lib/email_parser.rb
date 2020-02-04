@@ -15,5 +15,6 @@ class EmailAddressParser
       if !(results.include?(i))
         results << i 
       end 
+    end 
   end 
 end 
